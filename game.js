@@ -123,7 +123,7 @@ function checkAnswer(currentLevel) {
     $("body").addClass("game-over");
 
     setTimeout(function() {$("body").removeClass("game-over");}, 200);
-    $("h1").text("Game Over, Press Any Key to Restart");
+    $("h1").text("Game Over, Click On A Screen to Restart");
     startOver();
 
     }
