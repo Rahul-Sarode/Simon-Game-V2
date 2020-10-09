@@ -6,7 +6,7 @@ var started = false;
 
 // ****************************************************************************
 //Works only when value is true.
-$(document).on("click", function() {
+$(".Game-button").on(("click"), function() {
   if (!started) { //Works only when value is true.
 
 
@@ -123,7 +123,7 @@ function checkAnswer(currentLevel) {
     $("body").addClass("game-over");
 
     setTimeout(function() {$("body").removeClass("game-over");}, 200);
-    $("h1").text("Game Over, Click On A Screen to Restart");
+    $("h1").text("Game Over, Click On The Start Button to Restart");
     startOver();
 
     }
