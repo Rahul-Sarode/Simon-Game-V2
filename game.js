@@ -6,7 +6,7 @@ var started = false;
 
 // ****************************************************************************
 //Works only when value is true.
-$(document).on("keypress", function() {
+$(document).on("click", function() {
   if (!started) { //Works only when value is true.
 
 
