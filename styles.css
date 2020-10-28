@@ -1,8 +1,10 @@
 body {
-  background-color: #011F3F;
+  /* background-color: #011F3F; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-image: url("back-3.jpg");
+
 }
 
 .head{
@@ -71,7 +73,8 @@ body {
   justify-content: center;
   align-content: center;
   border-radius: 100px;
-  background-color: grey;
+  background-image: url("back-3.jpg");
+  /* background-color: #011F3F; */
   border: 2px solid black;
 }
 
